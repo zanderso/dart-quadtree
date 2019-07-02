@@ -4,7 +4,7 @@
 
 /// A Dart quadtree library.
 ///
-/// Classes [QuadTreeMap] and [QuadTreeSet] are [Map] and [Set] implementations
+/// Classes QuadTreeMap and QuadTreeSet are Map and Set implementations
 /// with additional spatial indexing operations.
 library quadtree;
 
