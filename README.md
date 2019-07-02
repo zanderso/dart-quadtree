@@ -1,22 +1,14 @@
-A library for Dart developers.
+# Quadtree
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+[![Build Status](https://travis-ci.org/zanderso/dart-quadtree.svg?branch=master)](https://travis-ci.org/zanderso/quadtree)
 
-## Usage
+A Dart quadtree library.
 
-A simple usage example:
-
-```dart
-import 'package:quadtree/quadtree.dart';
-
-main() {
-  var awesome = new Awesome();
-}
-```
+Classes QuadTreeMap and QuadTreeSet are Map and Set implementations with
+additional spatial indexing operations.
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/zanderso/dart-quadtree/issues
