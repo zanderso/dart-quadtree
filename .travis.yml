@@ -1,0 +1,24 @@
+language: dart
+
+# Optional, the dart sdk release channel to use.
+dart:
+  - dev
+  - 2.2.0
+
+dart_task:
+  - dartanalyzer: --fatal-infos --fatal-warnings .
+  - test
+
+matrix:
+  include:
+    # Only validate formatting using the dev release
+    - dart: dev
+      dart_task: dartfmt
+
+# Only building master means that we don't run two builds for each pull request.
+branches:
+  only: [master]
+
+cache:
+  directories:
+    - $HOME/.pub-cache
